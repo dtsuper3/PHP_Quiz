@@ -10,6 +10,6 @@
 			$_SESSION['uname']=$name;
 			header('location:home.php');
 		}else{
-			header('location:login.php');
+			header('location:index.php');
 		}
  ?>
